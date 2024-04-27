@@ -1,0 +1,35 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+.body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.main {
+    display: flex;
+    column-gap: 5rem;
+}
+#field__playing {
+    border: 1px solid white;
+}
+.main > div:nth-child(2), .game__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.game__information {
+    height: 14rem;
+}
+.game__title {
+    color: white;
+}
+#btn__play {
+    width: 15rem;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    background-color: #4caf50;
+    cursor: pointer;
+}
